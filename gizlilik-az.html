@@ -24,7 +24,7 @@
 </head>
 <body>
 <h1>Miswak — Məxfilik Siyasəti</h1>
-<p>Son yenilənmə: 4 oktyabr 2026</p>
+<p>Son yenilənmə: 10 oktyabr 2026</p>
 <p>Bu sənəd Miswak tətbiqinin hansı məlumatları emal etdiyini və hansı
 hallarda kənar xidmətlərə məlumat göndərdiyini izah edir.</p>
 <h2>Qısaca</h2>
@@ -32,7 +32,7 @@ hallarda kənar xidmətlərə məlumat göndərdiyini izah edir.</p>
 sayğaclarınız, əlfəcinləriniz və ayarlarınız yalnız cihazınızda
 saxlanılır; bizə aid heç bir serverə göndərilmir. Bəzi funksiyalar
 işləmək üçün üçüncü tərəf xidmətlərə müraciət edir və onların hamısı
-aşağıda sadalanıb.</p>
+aşağıda sadalanıb. Tətbiqin hansı bölmələrinin istifadə olunduğu isə anonim şəkildə ölçülür; təfərrüatı aşağıda <strong>İstifadə ölçümü</strong> başlığındadır.</p>
 <h2>Məkan</h2>
 <p>Məkanınız namaz vaxtlarının və qiblə istiqamətinin hesablanması üçün
 lazımdır. Bu hesablamalar cihazınızda aparılır və məkanınız bunun üçün
@@ -66,6 +66,21 @@ göndərmir.</p>
 göstərilməsi və ölçülməsi üçün cihaz identifikatorları kimi məlumatlar
 toplaya bilər. Təfərrüatlar üçün Google-ın məxfilik siyasətinə baxın.
 Pro versiyada reklam göstərilmir.</p>
+<h2>İstifadə ölçümü</h2>
+<p>Tətbiqi yaxşılaşdırmaq üçün hansı bölmələrinin istifadə olunduğu ölçülür. Bu ölçüm PostHog adlı xidmət vasitəsilə aparılır və məlumatlar Avropa Birliyi daxilindəki serverlərdə emal olunur (eu.i.posthog.com).</p>
+<p>Göndərilən məlumatlar bunlardır:</p>
+<ul>
+<li>Açılan ekranların adı (məsələn &quot;/kuran&quot;, &quot;/zikirmatik&quot;). Ünvanın sual işarəsindən sonrakı hissəsi çıxarılır.</li>
+<li>Tətbiqin açılması, yenilənməsi və arxa plana keçirilməsi</li>
+<li>Quraşdırma sihirbazının tamamlanması, seçilən tətbiq dili və bildiriş icazəsi sualına verilən cavab</li>
+<li>Vaxtlar ekranındakı dəyişən karta toxunulduqda yalnız məzmunun növü — hədis, dua və ya əsma</li>
+<li>Pro alışının tamamlanması və ya yarımçıq buraxılması və seçilən paket</li>
+<li>Tətbiq versiyası, əməliyyat sistemi versiyası və cihaz modeli</li>
+<li>Cihazınıza təsadüfi verilən, kimliyinizlə əlaqəsi olmayan nömrə</li>
+</ul>
+<p>Sorğunun gəldiyi IP ünvanından ölkə və şəhər məlumatı çıxarılır; IP ünvanının özü də PostHog tərəfindən saxlanılır.</p>
+<p>Məkanınız, axtarış xanalarına yazdığınız mətnlər, hansı duanı və ya hədisi açdığınız, qəza namazı saylarınız, zəkat məbləğləriniz və doğum tarixiniz bu ölçümə daxil edilmir. Ekran yazısı və toxunuş yazısı aparılmır.</p>
+<p>Bu ölçümü <strong>Ayarlar → Məxfilik → Məlumat paylaşımı</strong> bölməsindən söndürə bilərsiniz. Söndürdükdə cihazınıza verilən nömrə də sıfırlanır.</p>
 <h2>Alışlar</h2>
 <p>Pro üzvlük alışları RevenueCat vasitəsilə Apple App Store və ya Google
 Play ilə həyata keçirilir. Ödəniş məlumatlarınız tətbiqə ötürülmür.</p>
